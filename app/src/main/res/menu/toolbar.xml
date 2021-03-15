@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <!--  showAsAction 指定按钮显示的位置-->
+  <!--  always表示永远显示在Toolbar中，如果屏幕空间不够则不显示-->
+  <!--  ifRoom表示屏幕空间足够的情况下显示在Toolbar中，不够的话就显示在菜单当中-->
+  <!--  never则表示永远显示在菜单当中-->
+  <!--  Toolbar中的action按钮只会显示图标，菜单中的action按钮只会显示文字-->
+  <item
+    android:id="@+id/action_search"
+    android:orderInCategory="100"
+    android:title="搜索"
+    app:actionViewClass="androidx.appcompat.widget.SearchView"
+    app:showAsAction="always" />
+
+  <item
+    android:id="@+id/settings"
+    android:icon="@mipmap/ic_settings"
+    android:orderInCategory="100"
+    android:title="设置"
+    app:showAsAction="never" />
+  <item
+    android:id="@+id/scan"
+    android:icon="@mipmap/ic_scan"
+    android:orderInCategory="100"
+    android:title="扫一扫"
+    app:showAsAction="always" />
+  <item
+    android:id="@+id/share"
+    android:icon="@mipmap/ic_share"
+    android:orderInCategory="100"
+    android:title="分享"
+    app:showAsAction="ifRoom" />
+
+</menu>

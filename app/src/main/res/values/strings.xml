@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">王者超市</string>
+  <string name="navSkin">皮肤中心</string>
+  <string name="navFriends">好友</string>
+  <string name="navLive">直播</string>
+  <string name="navApplet">小程序</string>
+  <string name="navWallet">钱包</string>
+  <string name="userName">张三</string>
+  <string name="mail">11111@qq.com</string>
+  <string name="navLocation">位置</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--  checkableBehavior="single" 组中的所有菜单项只能单选-->
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_skin"
+      android:icon="@mipmap/nav_skin"
+      android:title="@string/navSkin" />
+    <item
+      android:id="@+id/nav_friends"
+      android:icon="@mipmap/nav_friends"
+      android:title="@string/navFriends" />
+    <item
+      android:id="@+id/nav_live"
+      android:icon="@mipmap/nav_live"
+      android:title="@string/navLive" />
+    <item
+      android:id="@+id/nav_applet"
+      android:icon="@mipmap/nav_applet"
+      android:title="@string/navApplet" />
+    <item
+      android:id="@+id/nav_wallet"
+      android:icon="@mipmap/nav_wallet"
+      android:title="@string/navWallet" />
+    <item
+      android:id="@+id/nav_location"
+      android:icon="@mipmap/nav_location"
+      android:title="@string/navLocation" />
+
+  </group>
+</menu>
